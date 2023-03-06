@@ -1,0 +1,36 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.container {
+  background-color: #0f172a;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 300px;
+    height: auto;
+    align-self: auto;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
